@@ -1117,9 +1117,9 @@ function menu(){
 
 	ctx.font = "40px arial black";
 	ctx.fillStyle="rgb(0,0,0)";
-	ctx.fillText("RAKING", 434, 523);
+	ctx.fillText("RA NKING", 434, 523);
 	ctx.strokeStyle = "rgb(255,255,255)";
-	ctx.strokeText("RAKING", 434, 523); 
+	ctx.strokeText("RA NKING", 434, 523); 
 
 
 
@@ -6094,9 +6094,9 @@ function ranking(){
 
 	ctx.font = "96px arial black";
 	ctx.fillStyle="rgb(255,255,255)";
-	ctx.fillText("Racking", 300, 100);
+	ctx.fillText("Ranking", 300, 100);
 	ctx.strokeStyle = "rgb(0,0,0)";
-	ctx.strokeText("Racking", 300, 100); 
+	ctx.strokeText("Ranking", 300, 100); 
 
 	ctx.fillStyle = "rgba(" + [255, 255, 255, 0.5] + ")";
 	ctx.fillRect(rankbox.x,rankbox.y,rankbox.size_x,rankbox.size_y);
