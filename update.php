@@ -8,7 +8,7 @@ $conn = "sqlite:./sqlite/nenequest.sqlite";
 $pdo = new PDO($conn);
 
 // Change Setting PDO 
-$pdo -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION)
+$pdo -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
 $name = "";
@@ -21,7 +21,7 @@ if(isset($_COOKIE["input_name"])){
 	$score = $_COOKIE["input_score"];
 	$time = '"'.$_COOKIE["input_time"].'"';
 	$date = '"'.$_COOKIE["input_date"].'"';
-	$sql = "INSERT INTO players (name,score,time,date) VALUES ($name,$score,$time,$date)";
+	$sql = "INSERT INTO players_data (name,score,time,date) VALUES ($name,$score,$time,$date)";
 	$pdo->exec($sql);
 }
 
