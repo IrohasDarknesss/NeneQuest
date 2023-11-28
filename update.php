@@ -1,4 +1,5 @@
 <?php 
+// Game BackEnd
 session_start();
 
 // Connection Setting for SQLite DataBase
